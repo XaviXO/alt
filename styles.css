@@ -321,3 +321,15 @@ header{
 }
 
 /* our prayer service  */
+.prayer-service{
+    background: url("img/praying4.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.between{
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+/* discover our ministry */

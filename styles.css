@@ -338,11 +338,14 @@ header{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
 }
-.image-group img{
-}
-.discover-our-gospel{
+
+.discover-our-church .church-description{
     padding-top: 3rem;
     margin-bottom: 0;
 }
 
-/* the perfect service  */
+/* the perfect ministry  */
+.perfect-ministry{
+    background: url('img/love3.jpg') center no-repeat;
+    background-size: cover;
+}

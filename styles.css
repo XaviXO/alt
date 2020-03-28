@@ -333,3 +333,14 @@ header{
 }
 
 /* discover our ministry */
+.image-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+.image-group img{
+}
+.discover-our-gospel{
+    padding-top: 3rem;
+    margin-bottom: 0;
+}

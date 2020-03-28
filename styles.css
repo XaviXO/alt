@@ -25,6 +25,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 section{
     padding: 3.9rem 0;
 }
@@ -167,6 +171,7 @@ header{
     letter-spacing: 2px;
     opacity: 0;
     animation: fadeUp .5s forwards;
+    animation-delay: .5s;
 }
 
 .first-letter{
@@ -182,6 +187,7 @@ header{
     font-weight: bold;
     letter-spacing: .5rem;
     margin-right: .5rem;
+    animation: scale .5s forwards;
 }
 
 .seperator{
@@ -552,6 +558,16 @@ footer{
     }
     100%{
         opacity: 1;
-        transform: translateY(0rem);
+        transform: translateY(0);
+    }
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
     }
 }

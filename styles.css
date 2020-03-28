@@ -226,3 +226,26 @@ header{
     letter-spacing: 3px;
     margin-right: -3px;
 }
+
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
+.cta-btn{
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    padding: .9rem 1.8rem;
+    color: var(--body-font-color);
+    border-radius: .4rem;
+    transition: background-color .5s;
+}
+
+.cta-btn:hover,
+.cta-btn:focus{
+    color: #ffffff;
+    background-color: var(--secondary-font-color);
+}
+
+/* discover */

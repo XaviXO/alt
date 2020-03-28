@@ -411,7 +411,7 @@ footer{
 .social-icons i{
     font-size: 2rem;
     color: #ffffff;
-    padding: 8rem 2rem;
+    padding: .8rem 2rem;
     opacity: .5;
     transition: color .5s;
 }
@@ -508,5 +508,38 @@ footer{
     .church-info{
         display: flex;
         align-items: center;
+    }
+    .church-info > div{
+        flex: 1;
+    }
+    .padding-right{
+        padding-right: 7rem;
+    }
+    .footer-content{
+        max-width: 77.5rem;
+        margin: auto;
+    }
+    .footer-content-about{
+        max-width: 51.3rem;
+        margin: 0 auto 5.4rem;
+    }
+    .footer-content-divider{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-media,
+    .newsletter-form{
+        width: 100%;
+        max-width: 27.3rem;
+        margin: 0 1rem;
+    }
+
+    .social-icons i{
+        opacity: 1;
+    }
+
+    .newsletter-btn{
+        margin-left: 7.5rem;
     }
 }

@@ -191,3 +191,23 @@ header{
     background-color: #ffffff;
     position: relative;
 }
+
+.line-right::before,
+.line-left::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: .6rem solid transparent;
+}
+
+.line-right::before{
+    border-right-color: #ffffff;
+    right: 0;
+}
+
+.line-left::before{
+    border-left-color: #ffffff;
+    left: 0;
+}
+

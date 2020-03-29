@@ -370,12 +370,13 @@ header{
 
 /* the perfect ministry  */
 .perfect-ministry{
-    background: url('../img/love3.jpg') center no-repeat;
+    background: url('images/church1.jpg') center no-repeat;
     background-size: cover;
 }
 
 .map-shape{
-    padding: 3rem 0;
+    height: 30rem;
+    margin-bottom: 5rem;
 }
 
 /* footer code  */
@@ -546,7 +547,6 @@ footer{
     }
     .map-shape{
         height: 35rem;
-        width: 45rem;
     }
     .footer-content{
         max-width: 77.5rem;

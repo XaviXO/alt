@@ -376,13 +376,13 @@ header{
 
 /* hours of operation */
 .time-line{
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 .time-line h2{
     font-size: 4rem;
     color: var(--main-font-color-dark);
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 

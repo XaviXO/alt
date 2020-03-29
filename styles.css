@@ -375,10 +375,6 @@ header{
 }
 
 /* hours of operation */
-.time-line{
-    padding: 3rem 0;
-}
-
 .time-line h2{
     font-size: 4rem;
     margin-top: 5rem;
@@ -553,6 +549,13 @@ footer{
     }
     .padding-right{
         padding-right: 7rem;
+    }
+    .time-line{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .time-line .global-headline{
+        padding: 0 50rem;
     }
     .footer-content{
         max-width: 77.5rem;

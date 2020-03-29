@@ -374,6 +374,18 @@ header{
     background-size: cover;
 }
 
+/* hours of operation */
+.time-line{
+    padding: 5rem 0;
+}
+
+.time-line h2{
+    font-size: 4rem;
+    color: var(--main-font-color-dark);
+    margin-top: 3rem;
+}
+
+
 /* footer code  */
 footer{
     padding: 7.9rem 0;

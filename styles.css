@@ -381,10 +381,12 @@ header{
 
 .time-line h2{
     font-size: 4rem;
-    color: var(--main-font-color-dark);
     margin-top: 5rem;
 }
 
+.time-line p{
+    margin-bottom: 2rem;
+}
 
 /* footer code  */
 footer{

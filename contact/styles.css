@@ -692,7 +692,7 @@ footer{
 
 .newContainer .contact-row100 .contact-inputBox{
     position: relative;
-    width: 100%;
+    width: 75%;
     height: 5rem;
     color: var(--main-font-color-dark);
 }
@@ -779,4 +779,10 @@ input[type="submit"]{
     color: white;
     font-size: 18px;
     border-radius: 2px;
+}
+
+@media screen and (min-width: 400px){
+    .newContainer .contact-row100 .contact-inputBox{
+        width: 100%;
+    }
 }

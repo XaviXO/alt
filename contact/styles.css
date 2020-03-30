@@ -16,6 +16,7 @@
     --secondary-font-color: #c59d5f;
     --body-font-color: #515151;
     --darkMode: #272727;
+    --time: 1500ms;
 }
 
 html{
@@ -642,17 +643,5 @@ footer{
 
 /* contact form  */
 .contact-form{
-    width: 100%;
-    height: 100%;
-    background: #e4e4e4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.app{
-    width: 120rem;
-    height: 68.75rem;
-    position: relative;
+    
 }

@@ -554,6 +554,9 @@ footer{
     .time-line .global-headline{
         padding: 0 50rem;
     }
+    .center-image{
+        padding-top: 4rem;
+    }
     .footer-content{
         max-width: 77.5rem;
         margin: auto;

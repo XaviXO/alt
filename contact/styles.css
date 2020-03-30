@@ -647,5 +647,32 @@ footer{
     align-items: center;
     min-height: 100vh;
     background-color: var(--darkMode);
-    color: white;
+    box-sizing: border-box;
+}
+
+.contact-form .container{
+    width: 80%;
+    padding: 20px;
+}
+
+.contact-form .container h2{
+    width: 100%;
+    color: #45f3ff;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form .container .row100{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(40rem, 1fr));
+}
+
+.contact-form .container .row100 .col{
+    position: relative;
+    width: 100%;
+    padding: 0 1.5rem;
+    margin: 4rem 0 1.5rem;
 }

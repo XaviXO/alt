@@ -554,8 +554,12 @@ footer{
     .padding-right{
         padding-right: 7rem;
     }
-    .map-shape{
-        height: 35rem;
+    .time-line{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .time-line .global-headline{
+        padding: 0 50rem;
     }
     .footer-content{
         max-width: 77.5rem;
@@ -583,13 +587,6 @@ footer{
     }
     .newsletter-btn{
         margin-left: 7.5rem;
-    }
-    .time-line{
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
-    .time-line .global-headline{
-        padding: 0 50rem;
     }
 }
 /* animations */

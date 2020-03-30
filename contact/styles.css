@@ -639,3 +639,13 @@ footer{
         transform: translateY(-1rem);
     }
 }
+
+/* contact form  */
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--darkMode);
+    color: white;
+}

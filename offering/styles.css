@@ -554,6 +554,9 @@ footer{
     .time-line .global-headline{
         padding: 0 35rem;
     }
+    .snail-mail{
+        padding-top: 9rem;
+    }
     .center-image{
         padding-top: 4rem;
     }
@@ -583,6 +586,28 @@ footer{
     }
     .newsletter-btn{
         margin-left: 7.5rem;
+    }
+    /* payment methods */
+    .move-online{
+        padding-top: 3rem;
+    }
+    .move-sms{
+        padding-top: 3.5rem;
+    }
+    .move-snail{
+        padding-top: 9.25rem;
+    }
+    .move-autopay{
+        padding-top: 3.5rem;
+    }
+    .move-other{
+        padding-top: 7.5rem;
+    }
+    .push-it-up{
+        margin-top: -10rem;
+    }
+    .push-right{
+        margin-right: -3.5rem;
     }
 }
 /* animations */

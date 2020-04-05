@@ -663,3 +663,13 @@ footer{
 .church-info .time-line h1{
     font-size: 2rem;
 }
+
+.copyright{
+    font-size: 12px;
+    color: darkgray;
+    padding-top: 3rem;
+}
+.poc{
+    color: white;
+    font-size: 1.5rem;
+}

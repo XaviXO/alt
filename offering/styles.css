@@ -585,7 +585,7 @@ footer{
         margin-left: 7.5rem;
     }
     /* payment methods */
-    .move-online{
+    /* .move-online{
         padding-top: 3rem;
     }
     .move-sms{
@@ -605,7 +605,7 @@ footer{
     }
     .push-right{
         margin-right: -3.5rem;
-    }
+    } */
 }
 /* animations */
 @keyframes fadeUp{

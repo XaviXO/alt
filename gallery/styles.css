@@ -266,21 +266,6 @@ header{
     margin-right: -2px;
 }
 
-.cta-btn{
-    font-size: 1.1rem;
-    background-color: #ffffff;
-    padding: .9rem 1.8rem;
-    color: var(--body-font-color);
-    border-radius: .4rem;
-    transition: background-color .5s;
-}
-
-.cta-btn:hover,
-.cta-btn:focus{
-    color: #ffffff;
-    background-color: var(--secondary-font-color);
-}
-
 /* discover our story*/
 .global-headline{
     text-align: center;
@@ -315,83 +300,6 @@ header{
     margin-bottom: 3rem;
 }
 
-.church-description p{
-    line-height: 1.6;
-    margin-bottom: 2.4rem;
-}
-
-.body-btn{
-    font-size: 1.5rem;
-    color: var(--secondary-font-color);
-    position: relative;
-    transition: color .5s;
-}
-
-.body-btn::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 100%;
-    height: 2px;
-    background-color: var(--secondary-font-color);
-    transition: background-color .5s;
-}
-
-.body-btn:hover,
-.body-btn:focus{
-    color: var(--main-font-color-dark);
-}
-
-.body-btn:hover::before,
-.body-btn:focus::before{
-    background-color: var(--main-font-color-dark);
-}
-
-/* our prayer service  */
-.prayer-service{
-    background: url("images/hand2.png") center no-repeat;
-    background-size: cover;
-}
-
-.between{
-    min-height: 65vh;
-    display: flex;
-    align-items: center;
-}
-
-/* discover our ministry */
-.image-group{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1.5rem;
-}
-
-.discover-our-church .church-description{
-    padding-top: 3rem;
-    margin-bottom: 0;
-}
-
-/* the perfect ministry  */
-.perfect-ministry{
-    background: url('images/church.png') center no-repeat;
-    background-size: cover;
-}
-
-.map-shape{
-    height: 30rem;
-    margin-bottom: 5rem;
-}
-
-/* hours of operation */
-.time-line h2{
-    font-size: 4rem;
-    margin-top: 5rem;
-}
-
-.time-line p{
-    margin-bottom: 2rem;
-}
 /* footer code  */
 footer{
     padding: 7.9rem 0;

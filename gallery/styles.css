@@ -594,7 +594,11 @@ footer{
     float: left;
     margin: 2%;
 }
-
+@media screen and (min-width: 760px){
+    #wrapper img{
+        max-height: 40rem;
+    }
+}
 @media screen and (max-width: 760px){
     .one-third{
         width: 48%;

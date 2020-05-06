@@ -584,10 +584,12 @@ footer{
     height: auto;
     width: auto;
     margin-bottom: -4px;
+    transform: 1s;
+    transition: 1s;
 }
 
 #wrapper img:hover{
-    opacity: .7;
+    opacity: .3;
 }
 .one-third{
     width: 29%;
